@@ -9,6 +9,7 @@ public class Cadastro {
     public static void main(String[] args) {
         int opc, qtdNota;
         String nome, cpf; 
+        float nota = 0;
         Scanner en = new Scanner(System.in);
          
         do{
@@ -34,7 +35,16 @@ public class Cadastro {
                     System.out.println("digite a quantidade");
                     qtdNota = en.nextInt();
                     
+                    for(int i = 0; i< qtdNota; i++){
+                        System.out.println("Digite a +(i+1)+ ");
+                        nota = en.nextFloat();
+                    }
+                    
                     break; 
+                    
+                case 2:
+                    
+                    break;
             }
                  
             
