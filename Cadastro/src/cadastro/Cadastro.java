@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Cadastro {
 
     public static void main(String[] args) {
-        int opc;
+        int opc, qtdNota;
         String nome, cpf; 
         Scanner en = new Scanner(System.in);
          
@@ -29,6 +29,10 @@ public class Cadastro {
                     nome = en.nextLine();
                     System.out.println("cpf");
                     cpf = en. nextLine();
+                    
+                    
+                    System.out.println("digite a quantidade");
+                    qtdNota = en.nextInt();
                     
                     break; 
             }
